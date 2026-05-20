@@ -8,6 +8,7 @@ import 'calendar.dart';
 
 void main() {
   runApp( MaterialApp(
+    debugShowCheckedModeBanner: false,
     theme: theme,
     home: MyApp(),
   ));
